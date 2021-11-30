@@ -1,0 +1,93 @@
+nav {
+    box-sizing:border-box;
+    margin: 0rem;
+    padding:0rem;
+    background-color: darkgray;
+}
+@media (max-width:600px) {
+    nav {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 800px) {
+    .h1, h2, h3, h4 {
+        font-size: 2rem;
+}
+
+html {
+    background-color: seashell;
+}
+@media (orientation: portrait) {
+   Header {
+font-size: 3rem;
+}
+header {
+font-size: 2rem;
+font-family: adobe-jenson-pro, serif;
+font-weight: 400;
+font-style: normal;
+padding-top: 1.5rem;
+padding-bottom: .2rem;
+}
+img {
+    float:left;
+    margin:2rem;
+}
+.a:link { 
+    color:green;
+}
+a:visited {
+    color:blue;
+}
+a:hover {
+    color:purple;
+}
+a:focus {
+    color:red;
+}
+a:active {
+    color:yellow;
+}
+
+
+
+
+h1 {
+font-size: 4rem;
+font-family: adobe-jenson-pro, serif;
+font-weight: 400;
+font-style: normal;
+}
+h2 {
+    font-size: 2rem;
+    font-family: adobe-jenson-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3 {
+    font-size: 1.5rem;
+font-family: adobe-jenson-pro, serif;
+font-weight: 400;
+
+}
+/* no common ligatures */
+.ex3 { font-feature-settings: "liga" 0; }
+p {
+    font-size: 1rem;
+font-family: adobe-jenson-pro, serif;
+font-weight: 400;
+font-style: normal;
+line-height:1rem;
+}
+h4 {
+    font-size: 1.5rem;
+font-family: adobe-jenson-pro, serif;
+font-weight: 400;
+position:relative;
+top:2rem;
+}
+
+
+footer {
+    padding-top: 2rem;
+}
